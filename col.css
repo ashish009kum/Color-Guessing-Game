@@ -1,0 +1,84 @@
+body{
+    background-color:#232323;
+    color: white;
+}
+.display-5{
+    font-weight: 400;
+}
+.first{
+    background-color: steelblue;
+}
+.a{
+    font-weight: 350;
+    margin-top: -17px;
+    margin-bottom: 2px;
+}
+.ha{
+    background-color:steelblue;
+    color: white;
+}
+.ne:hover{
+    background-color: steelblue;
+    color: white;
+}
+#sec{
+    background-color: white;
+}
+.b{
+    max-width: 535px;
+}
+.res{
+    color: black;
+}
+.box{
+    transition: background-color 0.7s ease-out;
+}
+.add{
+    color: white;
+    background-color: steelblue;
+}
+button
+{
+    border: none;
+    background-color: transparent;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(48, 131, 199);
+    margin: 0;
+    padding: 4px;
+    border-style: none;
+    transition: all 0.5s;
+}
+button:focus{
+    outline: none;
+}
+.box{
+    width: 30%;
+    height: 157px;
+    background-color: rgb(111, 57, 211);
+    border-radius: 30px;
+}
+.ok{
+    max-width: 535px;
+}
+@media screen and (max-width: 500px) 
+{
+    .box{
+      height: 128px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+@media screen and (max-width: 380px) 
+{
+    .box{
+      height: 100px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    button{
+        font-size: 12px;
+    }
+    .display-5, .display-3{
+        font-size: 30px;
+    }
+    .display-3{
+        margin-top: 3px;
+    }
+}
